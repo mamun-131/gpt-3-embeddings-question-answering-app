@@ -2,8 +2,8 @@
 
 ## Running Example of Python and OpenAI API
 
-This is app for document reading and asking question about the document. This app is powered by LLM (GPT-3.5). There is direct question answering solution by GPT
-for a bigger document. GPT context has limitation of 2049 tokens for a context. So we have to apply a tric to split document into different paragraph and embadde the
+This is an app for document reading and asking question about the document. This app is powered by LLM (GPT-3.5). There is no direct question answering solution by GPT
+for a bigger document. GPT context has limitation of 2049 tokens. So we have to apply a tric to split document into different paragraph and embadde the
 paragraphs. When any question is ask that would be converted to word embedding and perform a semantic search on embeddings of full document and will find most relevent 
 paragraph. The most relevent paragraph will be injected into chatgpt prompt through API and will get a generative answer. This process has an awesome result.
 
