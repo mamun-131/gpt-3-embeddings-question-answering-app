@@ -44,5 +44,5 @@ You can ask question about the resume like..
 5. what are his experiences in ML
 
 You will get a surprise. :)
-![Alt text](relative%20path/output.png?raw=true "Outcomes")
+![Alt text](output.PNG?raw=true "Outcomes")
  
